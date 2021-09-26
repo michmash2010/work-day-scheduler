@@ -1,8 +1,4 @@
-var dateEl = document.querySelector("#current-day");
+var dateEl = document.querySelector("#currentDay");
 
-var todayDate = moment().format("MMMM D, YYYY");
+dateEl.textContent = moment().format("MMMM D, YYYY");
 
-//console.log(todayDate);
-//console.log(typeof todayDate);
-
-//dateEl.textContent(toString());
