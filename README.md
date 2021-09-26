@@ -5,10 +5,10 @@ for UCF Coding Bootcamp
 Coming soon!
 
 ## Description
-This quiz page currently in development features JQuery, Bootstrap, and the legacy Moment.js in addition to HTML, CSS, and JavaScript.
+This page currently in development features JQuery, Bootstrap, and the legacy Moment.js in addition to HTML, CSS, and JavaScript.
 
-## Code Quiz Webpage Screenshot
-![A screenshot of the finished Code Quiz webpage will appear here when it's done, ideally.]
+## Work Day Scheduler Webpage Screenshot
+![A screenshot of the finished Work Day Scheduler webpage will appear here when it's done, ideally.]
 
 ## Credits
-Starter Code and a mock-up for the basic design/appearance of the Code Quiz Webpage and the example questions were included in the assignment.
+Starter Code and a mock-up for the basic design/appearance of the Work Day Scheduler Webpage and the example questions were included in the assignment.
