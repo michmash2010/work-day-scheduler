@@ -6,15 +6,11 @@ console.log(time);
 
 dateEl.textContent = moment().format("dddd, MMMM D, YYYY");
 
-// var determineRelativeTime = function() {
-//     var currentTime = moment().format('h');
-    
-//     console.log("Hour of Current time is: " + currentTime);
- 
-// };
+console.log("Hour of Current time is: " + moment().format('h'));
 
-console.log(moment().format('h'));
-
+// Below function partially works, but only on the first instance of the 
+// descriptionEl, so the past/present/future classes are hardcoded 
+// in index.html for now.  Does it need for the rows to be dynamically created?
 var auditTask = function(time) {
     if (moment().isAfter(time), 'hour') {
         $(descriptionEl).addClass("past");
@@ -28,6 +24,10 @@ var auditTask = function(time) {
     }
 };
 
-//determineRelativeTime();
-
 auditTask();
+
+
+
+
+
+
